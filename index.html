@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="background-wrap">
+        <div class="x1">
+          <div class="cloud"></div>
+        </div>
+        <div class="x2">
+          <div class="cloud"></div>
+        </div>
+        <div class="x3">
+          <div class="cloud"></div>
+        </div>
+        <div class="x4">
+          <div class="cloud"></div>
+        </div>
+        <div class="x5">
+          <div class="cloud"></div>
+        </div>
+      </div>
+    <img src="img/Two devs.jpg" alt=""> 
+    <div class="text-box">
+        
+        <h1>¡Hola! Soy <span id="element" ></span></h1>
+        <p>¡Saludos! el proyecto presente fue realizado por los estudiantes Estefani Soto 2021-2243 <br> 
+            y Rafael Custodio 2021-2054 :D</p>
+           
+    </div>
+    
+</body>
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Estefani Soto.', 'Rafael Custodio.'],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop:true
+    });
+  </script>
+</body>
+</html>
